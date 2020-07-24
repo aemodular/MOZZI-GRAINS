@@ -11,20 +11,24 @@ Documentation on Mozzi can be found here: https://sensorium.github.io/Mozzi/doc/
 Demotrack available here: https://soundcloud.com/taitekatto/mozzi-simple-example-triangle-wave
   
 # Usage of this Firmware with GRAINS:
-__Switch__ 'G'/'M' has to be set to 'M' to work properly with Mozzi based sketches
 
+__Mode-Switch__ 'G'/'M' has to be set to 'M' to work properly with Mozzi based sketches
   
-  
+__Inputs__
+
 * IN1 / Pot1: Change frequency of Oscillator
 * IN2 / Pot2: [n/a]
 * IN3:        [n/a]
 * Pot3:       [n/a]
 * A:          [n/a]
-  
+
+__Outputs__
+
 * OUT:        Audio out
 * D:          [n/a]
 
 ## Notes:
+
   
 Caution! Use at your own risk (according to GNU General Public License '16. Limitation of Liability')
 ----------------------------------------------------------------------------------------------------- 
@@ -47,4 +51,3 @@ GNU General Public License for more details.
   
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
