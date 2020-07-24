@@ -28,7 +28,8 @@ __Outputs__
 * D:          [n/a]
 
 # Notes:
-  
+
+
 Caution! Use at your own risk (according to GNU General Public License '16. Limitation of Liability')
 ----------------------------------------------------------------------------------------------------- 
 This program in combination with the hardware it is applied to can produce harsh and loud frequencies that may be of harm to speakers or your ears!
