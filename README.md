@@ -21,4 +21,4 @@ List of Firmwares
 __For more details on the individual firmwares, please refer to the equivalent README-files that come with them.__
 
 __GRAINS Mozzi Simple Example__                                                               
-A simple Triangle-Wave that can be changed in pitch. This code mainly is intended as a "hello world"-starting point to use the provides Mozzi-Grains Framwork for your own creations  
+A simple Triangle-Wave that can be changed in pitch. This code mainly is intended as a "hello world"-starting point to use the provided framwork for your own creations  
