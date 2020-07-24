@@ -27,8 +27,7 @@ __Outputs__
 * OUT:        Audio out
 * D:          [n/a]
 
-## Notes:
-
+# Notes:
   
 Caution! Use at your own risk (according to GNU General Public License '16. Limitation of Liability')
 ----------------------------------------------------------------------------------------------------- 
