@@ -2,7 +2,7 @@
   
 an experimental Firmware for the AE Modular GRAINS module by tangible waves, using the Mozzi library: https://sensorium.github.io/Mozzi
 
-The intention of this Firmware is to provide a very basic sketch to build upon if you want to develop your own firmware using Mozzi sketches
+The intention of this Firmware is to provide two LFOs with various options, especially useful for generative patches.
     
 To set up the environment needed to install this firmware, please refer to the AeManual for GRAINS on the AE Modular Wiki: http://wiki.aemodular.com/pmwiki.php/AeManual/GRAINS
 To include the Mozzi library with your sketch please also refer to "Installation" at https://sensorium.github.io/Mozzi.
@@ -21,12 +21,12 @@ __Inputs__
 * IN1 / Pot1: Set Frequency of variable waveform LFO-1 (up to audible range if set to high values)
 * IN2 / Pot2: Set Frequency of square-wave LFO-2 (up to audible range if set to high values)
 * IN3:        Scaling-factor for speed of LFO-1, use this to get real slow LFOs (functionality turned off if CV==0V or unpatched)
-* Pot3:       Waveform of variable waveform LFO / simple envelope if set to min / random values for S&H if set to max.
+* Pot3:       Waveform of variable waveform LFO / simple envelope if set to min / random values for internal S&H random value if set to max.
 * A:          Trigger-input for envelope or S&H random value, only active if LFO-1 is set accordingly, you may use LFO-2 as a trigger or any other Gate-signal
 
 __Outputs__
 
-* OUT:        Variable wave-form LFO/Oscillator out or Envelope/S&H value if P3 is set to min. or max.
+* OUT:        Variable wave-form LFO/Oscillator out or Envelope/S&H random value if P3 is set to min. or max.
 * D:          Square-wave LFO out
 
 __LFO 1 has the following options, to be set via P3__
