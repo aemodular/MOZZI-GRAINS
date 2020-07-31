@@ -27,13 +27,13 @@ __Outputs__
 * OUT:        Audio out
 * D:          [n/a]
 
-## Notes:
+# Notes:
 
-  
 Caution! Use at your own risk (according to GNU General Public License '16. Limitation of Liability')
------------------------------------------------------------------------------------------------------ 
+
 This program in combination with the hardware it is applied to can produce harsh and loud frequencies that may be of harm to speakers or your ears!
 Permanent hearing loss may result from exposure to sound at high volumes. Use as low a volume as possible.
+
 
 'GRAINS Mozzi Simple Example' (Triangle Wave) an example Firmware for the AE Modular GRAINS module by tangible waves
     
