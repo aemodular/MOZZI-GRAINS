@@ -1,4 +1,4 @@
-# 'GRAINS Mozzi LFOs++ (Variable Waveform + Squarewave with crossmodulation, Envelope, White Noise, Random Generator') 
+# GRAINS Mozzi LFOs++ (Variable Waveform + Squarewave with crossmodulation, Envelope, White Noise, Random Generator') 
   
 an experimental Firmware for the AE Modular GRAINS module by tangible waves, using the Mozzi library: https://sensorium.github.io/Mozzi
 
