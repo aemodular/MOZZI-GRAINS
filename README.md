@@ -28,5 +28,5 @@ __GRAINS Mozzi Simple Example__
 A simple Triangle-Wave that can be changed in pitch. This code mainly is intended as a "hello world"-starting point to use the provided framwork for your own creations  
 
 __GRAINS Mozzi LFOs++__  
-Variable Waveform + Squarewave with crossmodulation, Envelope, WhiteNoise, Random generator'  
+Variable Waveform + Squarewave with crossmodulation, Envelope, WhiteNoise, Random generator  
 The intention of this Firmware is to provide two LFOs with various options (including very slow speeds) especially useful for generative patches
