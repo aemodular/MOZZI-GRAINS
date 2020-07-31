@@ -108,7 +108,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 static Oscil <SIN256_NUM_CELLS, AUDIO_RATE> lfo2SineForSquare(SIN256_DATA);
 static Oscil <SIN8192_NUM_CELLS, AUDIO_RATE> lfo1Sine(SIN8192_DATA);
 static Oscil <COSPHASE2048_NUM_CELLS, AUDIO_RATE> lfo1Cosphase(COSPHASE2048_DATA);
-static Oscil <COSPHASE2048_NUM_CELLS, AUDIO_RATE> lfo2Mod(COSPHASE2048_DATA);       // Modulator of LFO-2 for FM/PM effects ???###
 static Oscil <SAW2048_NUM_CELLS, AUDIO_RATE> lfo1Mod(SAW2048_DATA);                 // Modulator of LFO-1 for FM/PM effects
 static Oscil <SAW2048_NUM_CELLS, AUDIO_RATE> lfo1Saw(SAW2048_DATA);
 static Oscil <ENVELOP2048_NUM_CELLS, AUDIO_RATE> lfo1Envelope(ENVELOP2048_DATA);
