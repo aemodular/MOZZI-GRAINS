@@ -135,9 +135,8 @@ void loop()
 
 // --- We use these variables to communicate between updateControl() and updateAudio() ---
 static int8_t lfo1_select = 0;              // Normally it would be clearer to have these values encapsulated as member-variable of a class, we still use globals to make processing for the ATmega faster!
-static int cv_pot_in1, cv_pot_in2, cv_pot3, cv_in3, cv_audio_in;            // variables to store CV/Pot values of GRAINS-module
 static float lfo1_freq, lfo1_mod_freq, square_freq = 0;  // LFO-1 frequency,  and also frequency of possible FM/PM modulator of LFO-1 and LFO2 frequency (sqarewave)
-static bool new_trigger = false;        // We need this for the Sample and Hold of White Noise  
+static bool new_trigger = false;            // We need this for the Sample and Hold of White Noise  
 static Q15n16 next_FM_mod = 0;              // We store values for our FM/PM modulator during update_control() for update_audio() to gain processing time! 
 
 // --- Helper function: supply a means to map floating-point values according to CV / Pot selection ---
@@ -232,6 +231,7 @@ void updateControl()
 {
 static float scaling = 0.0;
 static bool gate_was_low = true;
+static int cv_pot_in1, cv_pot_in2, cv_pot3, cv_in3, cv_audio_in;            // variables to store CV/Pot values of GRAINS-module
 
   // --- Select LFO1 waveform via pot3 ---
   cv_pot3 = cv_pot3_average.next(mozziAnalogRead(CV_POT3));
@@ -285,7 +285,7 @@ static int8_t my_wave = 0;
   
   if( lfo1_select == 1 || lfo1_select == 2 )    // If we have sinus-waves for LFO-1 modulate the pulse-width with that!
   {
-    if(lfo2SineForSquare.next()+my_wave > 0)      // --- update LFO2 (square-wave) on Gate-out (to keep things simple we are using a "dummy-oscillator" to control this) ---
+    if(lfo2SineForSquare.next()+my_wave > 0)    // --- update LFO2 (square-wave) on Gate-out (to keep things simple we are using a "dummy-oscillator" to control this) ---
       digitalWrite(CV_GATE_OUT, HIGH);
     else
       digitalWrite(CV_GATE_OUT, LOW);
