@@ -24,9 +24,9 @@ List of Firmwares
 ==================
 __For more details on the individual firmwares, please refer to the equivalent README-files that come with them.__
 
-__GRAINS Mozzi Simple Example__                                                               
+__Mozzi-GRAINS Simple Example__                                                               
 A simple Triangle-Wave that can be changed in pitch. This code mainly is intended as a "hello world"-starting point to use the provided framwork for your own creations  
 
-__GRAINS Mozzi LFOs++__  
+__Mozzi-GRAINS LFOs++__  
 Variable Waveform + Squarewave with crossmodulation, Envelope, WhiteNoise, Random generator  
 The intention of this Firmware is to provide two LFOs with various options (including very slow speeds) especially useful for generative patches
