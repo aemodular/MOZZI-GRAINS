@@ -1,5 +1,5 @@
 /*
-# 'GRAINS Mozzi LFOs++ (Variable Waveform + Squarewave with crossmodulation, Envelope, WhiteNoise, Random generator') 
+# 'Mozzi-GRAINS LFOs++ (Variable Waveform + Squarewave with crossmodulation, Envelope, WhiteNoise, Random generator') 
   
 an experimental Firmware for the AE Modular GRAINS module by tangible waves, using the Mozzi library: https://sensorium.github.io/Mozzi
 
@@ -63,7 +63,7 @@ Caution! Use at your own risk (according to GNU General Public License '16. Limi
 This program in combination with the hardware it is applied to can produce harsh and loud frequencies that may be of harm to speakers or your ears!
 Permanent hearing loss may result from exposure to sound at high volumes. Use as low a volume as possible.
 
-'GRAINS Mozzi LFOs++' an experimental firmware for the AE Modular GRAINS module by tangible waves
+'Mozzi-GRAINS LFOs++' an experimental firmware for the AE Modular GRAINS module by tangible waves
     
 Copyright (C) 2020  Mathias Brüssel
 
