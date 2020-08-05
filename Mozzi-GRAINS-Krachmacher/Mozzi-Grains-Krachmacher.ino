@@ -24,7 +24,7 @@ __Mode-Switch__
 __Inputs__ 
   
 * IN1 / Pot1: Size of delayline one, changes pitch and timbre
-* IN2 / Pot2: Size of delayline one, changes pitch and timbre
+* IN2 / Pot2: Size of delayline two, changes pitch and timbre
 * IN3:        Filter cutoff frequency in case if filter is used by routing-setting, optionally controls VCA2 with one routing mode 
 * Pot3:       Algorithm- and routing-modes for KM (Krachmacher):  1) KM (fast), 2) KM (slower) 3) KM (slowest), 4) VCA->KM, 5) VCA->KM->VCF, 6) KM->VCF, 7) VCA2->KM->VCA, 8) KM->VCA
 * A:          CV for VCA or resonance of filter, depending on routing (resonance only is available in case if VCA is unused!)
