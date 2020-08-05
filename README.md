@@ -30,3 +30,7 @@ A simple Triangle-Wave that can be changed in pitch. This code mainly is intende
 __Mozzi-GRAINS LFOs++__  
 Variable Waveform + Squarewave with crossmodulation, Envelope, WhiteNoise, Random generator  
 The intention of this Firmware is to provide two LFOs with various options (including very slow speeds) especially useful for generative patches
+
+__Mozzi-GRAINS Krachmacher__  
+Two streams of noise-impulses get mixed in different manners, resulting in all kinds of sounds from pulsating sequences to static soundscapes to feedback-screams.
+Along with the Karplus-Strong inspired soundgeneration there is also a VCF and VCA build in that can be routed in different ways. Noise-sources can be switched, too.
