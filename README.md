@@ -34,3 +34,7 @@ The intention of this Firmware is to provide two LFOs with various options (incl
 __Mozzi-GRAINS Krachmacher__  
 Two streams of noise-impulses get mixed in different manners, resulting in all kinds of sounds from pulsating sequences to static soundscapes to feedback-screams.
 Along with the Karplus-Strong inspired soundgeneration there is also a VCF and VCA build in that can be routed in different ways. Noise-sources can be switched, too.
+
+__Mozzi-GRAINS Stradella__  
+The intention of this Firmware is to provide chords, laid down over 3-4 octaves in a similar order as with the chord-buttons on an accordeon, hence the name.
+A fourth note can also be added. The basetone of the chords and the fourth note can be transposed by +-12 notes. Several soundoptions (Saw, Triangle, Sinus, Square, distorted Saw) are available. CV-input via IN-3 is required to play the chords.

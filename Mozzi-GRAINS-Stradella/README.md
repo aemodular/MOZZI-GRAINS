@@ -1,7 +1,7 @@
 # 'Mozzi-GRAINS Stradella'
  
 an experimental Firmware for the AE Modular GRAINS module by tangible waves, using the Mozzi library: https://sensorium.github.io/Mozzi
-The intention of this Firmware is to provide chords, laid down over 5 octaves in a similar order as with the chord-buttons on an accordeon, hence the name
+The intention of this Firmware is to provide chords, laid down over 3-4 octaves in a similar order as with the chord-buttons on an accordeon, hence the name
    
 To set up the environment needed to install this firmware, please refer to the AeManual for GRAINS on the AE Modular Wiki: http://wiki.aemodular.com/pmwiki.php/AeManual/GRAINS
 To include the Mozzi library with your sketch please also refer to "Installation" at https://sensorium.github.io/Mozzi.
@@ -9,7 +9,7 @@ Documentation on Mozzi can be found here: https://sensorium.github.io/Mozzi/doc/
 
 This sketch is ment to provide a simple, chord-based polyphonic module, any of the chords are playable with only one key via CV over IN-3
 We are using the so called Stradella system as to be found on accordions to provide our chords
-1) C-E-G (C major), 2) G-Eb-C (C minor), 3) Bb-E-C (C dominant 7th) 4) Eb-C-A (C diminished 7th) and on some instruments 5) C-E-G# (C augmented triad)
+1) C-E-G (C major), 2) G-Eb-C (C minor), 3) Bb-E-C (C dominant 7th) 4) Eb-C-A (C diminished 7th)
 Main CV will used to define the basetone of the chord, the octave will decide which type of chords to use
 All chords will be in a kind of center range, to be generally usable
 To be able to use all chords, be sure to set the +2 Octaves switch to 'on' and turn the Pitch knob all way left
@@ -28,8 +28,8 @@ __Inputs__
  
 * IN1 / Pot1: Tuning of the chord's base-notes, +- 12 notes (one octave) Middle position would be "center-C"
 * IN2 / Pot2: Select an optional 4th note: +- 12 notes, relative to current setting of the chord-base note
-* IN3:        CV-in to play chords, mapped to notes over 4 1/2 octaves
-* Pot3:       Select the audio-character of the output: 0-position: "phase/strings"...
+* IN3:        CV-in to play chords, mapped to notes over 3 1/2 octaves
+* Pot3:       Select the audio-character of the output (left to right): Saw, Various Triangles, Sinus, Rectangle, distorted Saw-Wave
 * A:          Gate for Note-4 (as set via IN2/Pot2 and IN1/Pot1) - note will play if either gate is open or trigger toggled it
 * D:          Toggle-trigger for Note-4 (as set via IN2/Pot2 and IN1/Pot1) - note will play if either gate is open or trigger toggled it
               Hint: Gate (via audio-in) will not turn the note off, if the toggle (via 'D') still has set it to active!
