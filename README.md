@@ -24,8 +24,8 @@ List of Firmwares
 ==================
 __For more details on the individual firmwares, please refer to the equivalent README-files that come with them.__
 
-__Mozzi-GRAINS Simple Example__                                                               
-A simple Triangle-Wave that can be changed in pitch. This code mainly is intended as a "hello world"-starting point to use the provided framwork for your own creations  
+__Tutorial__                                                               
+This folder contains a series of tutorial projects which start as simple as possible and will get gradually more complex. If you want to learn how to program your own sounds with GRAINS and the MOZZI Library, please start here.  
 
 __Mozzi-GRAINS LFOs++__  
 Variable Waveform + Squarewave with crossmodulation, Envelope, WhiteNoise, Random generator  
