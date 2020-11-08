@@ -33,7 +33,8 @@ __Inputs__
 * A:          Gate for Note-4 (as set via IN2/Pot2 and IN1/Pot1) - note will play if either gate is open or trigger toggled it
 * D:          Toggle-trigger for Note-4 (as set via IN2/Pot2 and IN1/Pot1) - note will play if either gate is open or trigger toggled it
               Hint: Gate (via audio-in) will not turn the note off, if the toggle (via 'D') still has set it to active!
-              (Please note: 'D' is situated on the right side and would normally be used as an input!)              
+              (Please note: 'D' is situated on the right side and would normally be used as an input!)
+              
 __Outputs__
 
 * OUT:        Sound output
