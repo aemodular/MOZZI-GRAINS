@@ -11,11 +11,10 @@ If you own the current revision of GRAINS, please make sure to set the __Mode-Sw
 
 __How to__
 
-The Mozzi-Grains firmwares rely on the Mozzi library, which is described here: https://sensorium.github.io/Mozzi
-The Mozzi-library itself can be downloaded here: https://sensorium.github.io/Mozzi/download/
-The process on how to install any additional library to your Arduino environment is described here: https://www.arduino.cc/en/Guide/Libraries
-Please also make sure to use a current version of the Arduino IDE, the current Mozzi-Grains firmwares have been developed with Arduino Version 1.8.12, 
-the Mozzi-library was installed via the ZIP that can be downloaded at Github. 
+The Mozzi-Grains firmwares rely on the Mozzi library, which is described here: https://sensorium.github.io/Mozzi 
+The process how to add any additional library to your Arduino environment is documented here: https://www.arduino.cc/en/Guide/Libraries 
+Please also make sure to use a current version of the Arduino IDE. The Mozzi-Grains firmwares to be found here have been developed with Arduino Version 1.8.12, 
+the Mozzi-library was installed using the ZIP that can be downloaded at Github as mentioned here: https://sensorium.github.io/Mozzi/download/
 
 To use any of the firmwares, to download all firmwares at once please click the 'clone or download'-button at https://github.com/aemodular/MOZZI-GRAINS and then select the 'download'-option.  
 
